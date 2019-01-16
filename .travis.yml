@@ -2,6 +2,7 @@ dist: xenial
 install: sudo snap install hugo --channel=extended
 script:
   - hugo
+  - cp CNAME public/.  
 deploy:
   provider: pages
   skip-cleanup: true
