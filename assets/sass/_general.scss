@@ -3,6 +3,17 @@ body {
 	margin: 0 auto;
 	max-width: 50em;
 
+	// Space
+	line-height: 1.5;
+	padding: 4em 1em;
+
 	// Default font-family
 	font-family: Helvetica, Arial, sans-serif;
+
+	// Default color
+	color: #555;
+}
+
+h1, h2, strong {
+	color: #333;
 }
