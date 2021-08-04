@@ -1,0 +1,10 @@
+.toDoList li {
+    @apply select-none;
+    @apply cursor-default;
+}
+
+.toDoList li::before {
+    content: attr(data-icon);
+    @apply text-xl;
+    @apply mr-2;
+}
